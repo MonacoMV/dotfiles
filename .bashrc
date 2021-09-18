@@ -10,3 +10,5 @@ PS1='[\u@\h \W]\$ '
 pokemon-colorscripts -r
 
 alias ls='ls -la'
+alias shutdown='shutdown now'
+alias c='clear'
