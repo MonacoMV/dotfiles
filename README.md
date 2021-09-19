@@ -5,10 +5,10 @@ Dotfiles are the customization files that are used to personalize your Linux or 
 
 Get pokemon color scipt 
 
-git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+`git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git`
 
-install with 
+install with: 
 
-cd pokemon-colorscripts
+`cd pokemon-colorscripts`
 
-sudo ./install.sh
+`sudo ./install.sh`
