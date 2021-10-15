@@ -3,10 +3,11 @@
 #autostart
 xrandr -s 1360x768 &
 ./.fehbg
+./.config/polybar/launch.sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V VI VII
 
 bspc config border_width        1
 bspc config window_gap          12
