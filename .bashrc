@@ -1,14 +1,20 @@
 #
 # ~/.bashrc
 #
-
+  
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+ 
+PS1='\u (\W)   '
+#autorun
 pokemon-colorscripts -r
-
-alias ls='ls -la'
+ 
+#aliases
+alias ls='ls -la --color'
 alias shutdown='shutdown now'
 alias c='clear'
+alias pacman='sudo pacman'
+alias clock='tty-clock'
+alias cp='cp -i'
+alias rm='rm -i'
+alias mv='mv -i'
