@@ -1,10 +1,10 @@
 autoload -U compinit && compinit -u
 
 #Zsh autocomplete
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-autosuggestions.zsh
 
 #Zsh syntax highlight
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-syntax-highlighting.zsh
 
 #autostart
 pokemon-colorscripts -r
