@@ -11,14 +11,6 @@ if type -p alacritty > /dev/null; then
 else
 		echo "alacritty failed to isntall" >> $log_file
 
-sudo pacman -S zsh
-if type -p zsh > /dev/null; then
-		echo "zsh installed" >> $log_file
-else
-		echo "alacritty failed to isntall" >> $log_file
-
-fi
-
 sudo pacman -S --noconfirm bspwm
 if type -p bspwm > /dev/null; then
 		echo "bspwm installed" >> $log_file
