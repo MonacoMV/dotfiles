@@ -25,10 +25,6 @@ cp -r $PWD/.config/rofi/config.rasi $HOME/.config/rofi/config.rasi
 cp -r $PWD/.config/polybar/config $HOME/.config/polybar/config
 cp -r $PWD/.config/polybar/launch.sh $HOME/.config/polybar/launch.sh
 
-[ ! -d "$HOME/.zsh" ] && mkdir -p $HOME/.zsh
-cp -r $PWD/.zsh/zsh-autosuggestions.zsh $HOME/.zsh/zsh-autosuggestions.zsh
-cp -r $PWD/.zsh/zsh-syntax-highlighting.zsh $HOME/.zsh/zsh-syntax-highlighting.zsh
-
 rm -r $HOME/.vim
 cp -r $PWD/.vim $HOME/
 
@@ -37,8 +33,6 @@ cp -r $PWD/.vimrc $HOME/.vimrc
 cp -r $PWD/.xinitrc $HOME/.xinitrc
 
 cp -r $PWD/.bashrc $HOME/.bashrc
-
-cp -r $PWD/.zshrc $HOME/.zshrc
 
 chmod +x $HOME/.config/bspwm/bspwmrc
 chmod +x $HOME/.config/sxhkd/sxhkdrc
