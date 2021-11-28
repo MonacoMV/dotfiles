@@ -63,7 +63,7 @@ fi
 
 git clone https://aur.archlinux.org/polybar.git
 cd polybar
-makepkg -si
+makepkg -si --noconfirm
 if type -p polybar > /dev/null; then
 		echo "polybar installed" >> $log_file
 else
@@ -76,9 +76,9 @@ echo "xorg installed" >> $log_file
 sudo pacman -S --noconfirm ttf-font-awesome
 echo "font-awesome installed" >> $log_file
 
-git clone https://github.com/dylanaraps/pfetch
+git clone https://aur.archlinux.org/pfetch.git
 cd pfetch
-sudo make install
+makepkg -si --noconfirm
 if type -p pfetch > /dev/null; then
 		echo "pfetch installed" >> $log_file
 else
