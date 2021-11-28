@@ -40,6 +40,10 @@ cp -r $PWD/.bashrc $HOME/.bashrc
 
 cp -r $PWD/.zshrc $HOME/.zshrc
 
+chmod +x $HOME/.config/bspwm/bspwmrc
+chmod +x $HOME/.config/sxhkd/sxhkdrc
+chmod +x $HOME/.config/polybar/launch.sh
+
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
 sudo ./install.sh
