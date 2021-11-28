@@ -62,7 +62,7 @@ else
 		echo "polybar failed to install"
 fi
 
-sudo pacman -S --noconfirm xorg
+sudo pacman -S --noconfirm xorg-xinit xorg-server xorg-xrandr
 echo "xorg installed" >> $log_file
 
 sudo pacman -S --noconfirm ttf-font-awesome
