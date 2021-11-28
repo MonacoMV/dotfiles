@@ -37,6 +37,7 @@ cp -r $PWD/.bashrc $HOME/.bashrc
 chmod +x $HOME/.config/bspwm/bspwmrc
 chmod +x $HOME/.config/sxhkd/sxhkdrc
 chmod +x $HOME/.config/polybar/launch.sh
+chmod +x $HOME/.xinitrc
 
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
