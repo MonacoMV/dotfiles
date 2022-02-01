@@ -44,3 +44,7 @@ cd pokemon-colorscripts
 sudo ./install.sh
 
 echo "Finished Installing Config Files"
+
+set -o errexit
+
+exit 0
