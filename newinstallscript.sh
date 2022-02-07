@@ -20,7 +20,7 @@ PACKAGES(){
 	ttf-font-awesome
 }
 
-sudo pacman -S --noconfirm --needed PACKAGES
+sudo pacman -S --noconfirm --needed $PACKAGES
 
 # Installing Paru
 
@@ -41,7 +41,7 @@ AUR_PACKAGES(){
 	pfetch
 }
 
-paru -S --needed --noconfirm AUR_PACKAGES
+paru -S --needed --noconfirm $AUR_PACKAGES
 
 # Command just in case something fails
 
