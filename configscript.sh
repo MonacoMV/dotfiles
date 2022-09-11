@@ -10,26 +10,26 @@ echo "files can be found in /bin/backups"
 
 echo "======== Installing Dotfiles ========"
 [ ! -d "$HOME/.config/bspwm" ] && mkdir -p $HOME/.config/bspwm/
-cp -r $PWD/.config/bspwm/bspwmrc $HOME/.config/bspwm/bspwmrc
+cp -r $PWD/config/bspwm/bspwmrc $HOME/.config/bspwm/bspwmrc
 
 [ ! -d "$HOME/.config/sxhkd" ] && mkdir -p $HOME/.config/sxhkd/
-cp -r $PWD/.config/sxhkd/sxhkdrc $HOME/.config/sxhkd/sxhkdrc
+cp -r $PWD/config/sxhkd/sxhkdrc $HOME/.config/sxhkd/sxhkdrc
 
 [ ! -d "$HOME/.config/alacritty" ] && mkdir -p $HOME/.config/alacritty
-cp -r $PWD/.config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+cp -r $PWD/config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
 [ ! -d "$HOME/.config/rofi" ] && mkdir -p $HOME/.config/rofi
-cp -r $PWD/.config/rofi/config.rasi $HOME/.config/rofi/config.rasi
+cp -r $PWD/config/rofi/config.rasi $HOME/.config/rofi/config.rasi
 
-[ ! -d "$HOME/.config/polybar" ] && mkdir -p $HOME/.config/polybar
-cp -r $PWD/.config/polybar/config $HOME/.config/polybar/config
-cp -r $PWD/.config/polybar/launch.sh $HOME/.config/polybar/launch.sh
+[ ! -d "$HOME/config/polybar" ] && mkdir -p $HOME/.config/polybar
+cp -r $PWD/config/polybar/config $HOME/.config/polybar/config
+cp -r $PWD/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
 
 [ ! -d "$HOME/bin" ] && mkdir -p $HOME/bin
 cp -r $PWD/bin $HOME/bin
 
 rm -r $HOME/.vim
-cp -r $PWD/.vim $HOME/
+cp -r $PWD/vim $HOME/
 
 cp -r $PWD/.vimrc $HOME/.vimrc
 
