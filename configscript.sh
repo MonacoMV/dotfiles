@@ -29,7 +29,7 @@ cp -r $PWD/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
 cp -r $PWD/bin $HOME/bin
 
 rm -r $HOME/.vim
-cp -r $PWD/vim $HOME/
+cp -r $PWD/vim $HOME/.vimrc
 
 cp -r $PWD/.vimrc $HOME/.vimrc
 
