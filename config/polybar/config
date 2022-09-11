@@ -1,0 +1,77 @@
+[colors]
+background = #1d1f21
+background-wm = #444
+backround-alt = #2d2d2d
+foreground = #555
+foreground-alt = d8dee9
+
+[bar/mybar]
+moniter = Virtual-1
+moniter-fallback =
+moniter-strict = false
+moniter-exact = true
+#override-redirect = true
+wm-restack = bspwm
+enable-ipc = true
+fixed-center = true
+bottom = false
+separator =  
+#dim-value = 1.0
+#radius = 10
+
+#width = 100%
+#height = 32
+#offset-x = 0
+#offset-y = 0
+
+width = 99%
+height = 32
+offset-x = 7
+offset-y = 5
+
+background = ${colors.background}
+#foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #f00
+
+padding-right = 1
+padding-left = 1
+module-margin-left = 1
+module-margin-right = 1 
+
+font-0 = SourceCodeProMedium:pixelsize=10;2
+font-1 = FontAwesome:pizelsize=10;3
+font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
+#dpi-x = 96
+#dpi-y = 96
+
+modules-left = bspwm
+modules-center = title
+modules-right = date
+
+[module/bspwm]
+type = internal/bspwm
+pin-workspaces = true
+label-focused-background = #555
+label-focused-underline = #fba922
+label-focused = %name%
+label-focused-padding = 1
+label-occupied = %name%
+label-occupied-padding = 1
+label-empty = %name%
+label-empty-padding = 1
+label-urgent = %name%
+label-urgent-padding = 1
+
+[module/title]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %Y/%m/%d%
+time = %H:%M
+format =  <label>
+label = %date% %time%
