@@ -7,7 +7,7 @@ sudo pacman -Syy --noconfirm --needed
 
 echo "Installing Packages"
 
-PACKAGES="alacritty bspwm sxhkd rofi feh vim xorg-xinit xorg-server xorg-xrandr ttf-font-awesome polybar adobe-source-code-pro-fonts"
+PACKAGES="alacritty bspwm sxhkd rofi feh vim xorg-xinit xorg-server xorg-xrandr ttf-font-awesome polybar adobe-source-code-pro-fonts vim"
 
 sudo pacman -S --noconfirm --needed $PACKAGES
 
