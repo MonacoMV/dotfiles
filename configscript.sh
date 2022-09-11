@@ -25,8 +25,8 @@ cp -r $PWD/config/rofi/config.rasi $HOME/.config/rofi/config.rasi
 cp -r $PWD/config/polybar/config $HOME/.config/polybar/config
 cp -r $PWD/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
 
-[ ! -d "$HOME/bin" ] && mkdir -p $HOME/bin
-cp -r $PWD/bin $HOME/bin
+[ ! -d "$HOME/bin" ]
+cp -r $PWD/bin $HOME/
 
 rm -r $HOME/.vim
 cp -r $PWD/vim $HOME/.vim
