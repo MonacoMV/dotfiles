@@ -31,6 +31,8 @@ cp -r $PWD/bin $HOME/
 rm -r $HOME/.vim
 cp -r $PWD/vim $HOME/.vim
 
+cp -r %PWD/wallpaper $HOME/
+
 cp -r $PWD/.vimrc $HOME/.vimrc
 
 cp -r $PWD/.xinitrc $HOME/.xinitrc
