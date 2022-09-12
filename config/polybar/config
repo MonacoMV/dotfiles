@@ -48,7 +48,7 @@ font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 
 modules-left = bspwm
 modules-center = title
-modules-right = date
+modules-right = date menu-apps
 
 [module/bspwm]
 type = internal/bspwm
@@ -75,3 +75,27 @@ date = %Y/%m/%d%
 time = %H:%M
 format =  <label>
 label = %date% %time%
+
+[module/menu-apps]
+type = custom/menu
+expand-right = true
+
+menu-0-0 = Browsers
+menu-0-0-exec = #menu-apps.open.1
+menu-0-1 = Multimedia
+menu-0-1-exec = #menu-apps.open.2
+
+menu-1-0 = Firefox
+menu-1-0-exec = firefox
+menu-1-1 = Chromium
+menu-1-1-exec = chromium
+
+menu-2-0 = Gimp
+menu-2-0-exec = gimp
+menu-2-1 = Scrot
+menu-2-1-exec = scrot
+
+label-open = Apps
+label-close = x
+
+label-separator = |
