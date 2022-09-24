@@ -14,7 +14,7 @@ ln -sf $dotfiles_dir/vimrc ~/.vimrc
 ln -sf $dotfiles_dir/bashrc ~/.bashrc
 ln -sf $dotfiles_dir/config ~/.config
 ln -sf $dotfiles_dir/xinitrc ~/.xinitrc
-ln -sf $dotfiles_dir/wallpaper
+ln -sf $dotfiles_dir/wallpaper ~/wallpaper
 
 chmod +x $dotfiles_dir/config/polybar/launch.sh
 chmod +x $dotfiles_dir/config/sxhkd/sxhkdrc
