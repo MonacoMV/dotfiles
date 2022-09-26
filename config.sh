@@ -9,10 +9,10 @@ sudo rm -rf ~/.config > /dev/null 2>&1
 sudo rm -rf ~/.xinitrc > /dev/null 2>&1
 sudo rm -rf ~/wallpaper > /dev/null/ 2>&1
 
-chmod +x $dotfiles_dir/config/polybar/launch.sh
-chmod +x $dotfiles_dir/config/sxhkd/sxhkdrc
-chomd +x $dotfiles_dir/config/bspwm/bspwmrc
-chomd +x $dotfiles_dir/xinitrc
+chmod +x $HOME/dotfiles/config/polybar/launch.sh
+chmod +x $HOME/dotfiles/config/sxhkd/sxhkdrc
+chomd +x $HOME/dotfiles/config/bspwm/bspwmrc
+chomd +x $HOME/dotfiles/xinitrc
 
 ln -sf $dotfiles_dir/vim ~/.vim
 ln -sf $dotfiles_dir/vimrc ~/.vimrc
