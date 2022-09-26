@@ -11,8 +11,8 @@ sudo rm -rf ~/wallpaper > /dev/null/ 2>&1
 
 chmod +x $HOME/dotfiles/config/polybar/launch.sh
 chmod +x $HOME/dotfiles/config/sxhkd/sxhkdrc
-chomd +x $HOME/dotfiles/config/bspwm/bspwmrc
-chomd +x $HOME/dotfiles/xinitrc
+chmod +x $HOME/dotfiles/config/bspwm/bspwmrc
+chmod +x $HOME/dotfiles/xinitrc
 
 ln -sf $dotfiles_dir/vim ~/.vim
 ln -sf $dotfiles_dir/vimrc ~/.vimrc
