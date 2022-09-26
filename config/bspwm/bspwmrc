@@ -2,7 +2,7 @@
 
 #autostart
 xrandr -s 1360x768 &
-feh --bg-scale $HOME/wallpapers/wallpaper.jpg &
+feh --bg-scale $HOME/wallpaper/wallpaper.jpg &
 ./.config/polybar/launch.sh
 pgrep -x sxhkd > /dev/null || sxhkd &
 
