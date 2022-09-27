@@ -70,11 +70,3 @@ date = %Y/%m/%d%
 time = %H:%M
 format =  <label>
 label = %date% %time%
-
-[module/rofi-power-menu]
-type = custom/script
-exec = rofi -show power-menu -modi power-menu:rofi-power-menu
-click-left = rofi -show power-menu -modi power-menu:rofi-power-menu
-click-middle = rofi -show power-menu -modi power-menu:rofi-power-menu
-click-right = rofi -show power-menu -modi power-menu:rofi-power-menu
-format = <label>
