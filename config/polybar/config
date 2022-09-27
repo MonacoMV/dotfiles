@@ -15,7 +15,7 @@ wm-restack = bspwm
 enable-ipc = true
 fixed-center = true
 bottom = false
-separator =  
+separator = |
 #dim-value = 1.0
 #radius = 10
 
@@ -43,7 +43,7 @@ font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 
 modules-left = bspwm
 modules-center = title
-modules-right = date
+modules-right = date rofi-power-menu
 
 [module/bspwm]
 type = internal/bspwm
@@ -70,3 +70,11 @@ date = %Y/%m/%d%
 time = %H:%M
 format =  <label>
 label = %date% %time%
+
+[module/rofi-power-menu]
+type = custom/script
+exec = rofi -show power-menu -modi power-menu:rofi-power-menu
+click-left = rofi -show power-menu -modi power-menu:rofi-power-menu
+click-middle = rofi -show power-menu -modi power-menu:rofi-power-menu
+click-right = rofi -show power-menu -modi power-menu:rofi-power-menu
+format = <label>
