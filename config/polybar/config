@@ -19,15 +19,10 @@ separator =
 #dim-value = 1.0
 #radius = 10
 
-width = 100%
+width = 99%
 height = 32
-offset-x = 0
-offset-y = 0
-
-#width = 99%
-#height = 32
-#offset-x = 7
-#offset-y = 5
+offset-x = 7
+offset-y = 0.5%
 
 background = ${colors.background}
 #foreground = ${colors.foreground}
