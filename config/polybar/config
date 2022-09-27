@@ -41,7 +41,7 @@ module-margin-left = 1
 module-margin-right = 1 
 
 font-0 = SourceCodeProMedium:pixelsize=10;2
-font-1 = FontAwesome:pizelsize=10;3
+font-1 = FontAwesome6Free:pizelsize=10;3
 font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 #dpi-x = 96
 #dpi-y = 96
